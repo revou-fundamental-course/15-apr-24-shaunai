@@ -1,0 +1,57 @@
+/* Ini File css */
+main{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-top: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.main-title{
+    text-align: center;
+    background-size: 30px;
+    background-color: rgb(231, 18, 18);
+    padding-top: 1vh;   
+    padding-bottom: 0.5vh;
+}
+/* .main-descrip{
+    text-align: center;
+} */
+.main-section{
+   padding: 16px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 4px; 
+}
+textarea{
+    background-color: bisque;
+}
+.kalkulasi{
+    height: 76px;
+    width: 415px;
+}
+.section-celcius, .section-fahrenheit, .section-result{
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.set-s{
+    font-size: 25px;
+    font: bold;
+    font-style: italic;
+}
+.form-s{
+      font-size: 30px;
+      font-style: italic;
+
+}
+.form-s>sub{
+    font-style: normal;
+}
+textarea{
+    width: 75%;
+    height: 32px;
+    font-size: 20px;
+}
