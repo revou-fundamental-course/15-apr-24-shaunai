@@ -1,57 +1,149 @@
-/* Ini File css */
-main{
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    margin-top: auto;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-.main-title{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    background: #222;
+  }
+  .main-title{
+    width: 240%;
+    max-width: 570px;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     background-size: 30px;
-    background-color: rgb(231, 18, 18);
-    padding-top: 1vh;   
-    padding-bottom: 0.5vh;
-}
-/* .main-descrip{
+    background-color: rgb(0, 122, 204);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+    border-radius: 20px;
+  }
+  .card {
+    width: 240%;
+    max-width: 570px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
     text-align: center;
-} */
-.main-section{
-   padding: 16px;
-   background-color: rgb(255, 255, 255);
-   border-radius: 4px; 
-}
-textarea{
-    background-color: bisque;
-}
-.kalkulasi{
-    height: 76px;
-    width: 415px;
-}
-.section-celcius, .section-fahrenheit, .section-result{
-    padding: 10px;
-}
-button{
+  }
+  .warna-text{
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+  .suhu-celcius {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .suhu-celcius input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 50px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .a1{
+    border: 0;
+    outline: 0;
+    margin-top: 16px;
+    background: #fd4800;
+    border-radius: 25%;
+    width: 60px;
+    height: 30px;
     cursor: pointer;
-    background-color: aquamarine;
-}
-.set-s{
-    font-size: 25px;
+  }
+  .a2{
+    border: 0;
+    outline: 0;
+    margin-top: 16px;
+    background: #c6fd00;
+    border-radius: 25%;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .a3{
+    border: 0;
+    outline: 0;
+    margin-top: 16px;
+    background: #00fc15;
+    border-radius: 25%;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .suhu-fahrenhait {
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .suhu-fahrenheit input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 50px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+  }
+  .div-explanation{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #82b0b8, #4429f5);
+    color: #fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+  }
+ 
+  .kalkulasi{
+    width: 100%;
+    height: 60px;
+    max-width: 470px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .set-s{
+    font-size: 20px;
     font: bold;
     font-style: italic;
-}
-.form-s{
+  }
+  .form-s{
       font-size: 30px;
       font-style: italic;
 
-}
-.form-s>sub{
+  }
+  .form-s>sub{
     font-style: normal;
-}
-textarea{
+  }
+  .detail{
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+  textarea{
     width: 75%;
     height: 32px;
     font-size: 20px;
-}
+    border-radius: 15px;
+  }
